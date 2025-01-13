@@ -1,0 +1,23 @@
+-r requirements.txt
+
+# Test araçları
+pytest>=7.0.0
+pytest-cov>=3.0.0
+pytest-mock>=3.6.1
+
+# Kod kalitesi
+flake8>=4.0.1
+black>=22.3.0
+isort>=5.10.1
+mypy>=0.950
+
+# Dokümantasyon
+sphinx>=4.5.0
+sphinx-rtd-theme>=1.0.0
+autodoc>=0.5.0
+
+# Geliştirme araçları
+ipython>=8.0.0
+jupyter>=1.0.0
+notebook>=6.4.0
+pre-commit>=2.17.0 
